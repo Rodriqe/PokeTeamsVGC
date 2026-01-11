@@ -1,4 +1,4 @@
-# Team 4 — Sunroom (VGC)
+# RegF Team 04: Sunroom
 
 ## Showdown importable
 
@@ -77,7 +77,7 @@ Jolly Nature
 
 ## Team overview
 
-A dedicated **Sun + Trick Room (“Sunroom”)** build that can pivot between speed control modes depending on the matchup:
+A dedicated **Sun + Trick Room ("Sunroom")** build that can pivot between speed control modes depending on the matchup:
 - **Trick Room mode**: Hatterene/Farigiraf set Trick Room while Amoonguss supports with redirection and sleep; Torkoal and Iron Hands clean under TR.
 - **Sun/Tailwind mode**: Roaring Moon provides Tailwind and strong immediate pressure; Torkoal still benefits from Sun even outside Trick Room.
 
