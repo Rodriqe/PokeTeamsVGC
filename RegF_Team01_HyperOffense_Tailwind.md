@@ -1,7 +1,7 @@
 # RegF Team 01: Hyper Offense Tailwind
 
 ## Pokémon Showdown importable
-``` 
+```text
 Flutter Mane @ Choice Specs
 Ability: Protosynthesis
 Level: 50
