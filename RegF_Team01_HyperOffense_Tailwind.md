@@ -8,6 +8,7 @@ Level: 50
 Tera Type: Ghost
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
+IVs: 0 Atk
 - Moonblast
 - Shadow Ball
 - Thunderbolt
@@ -19,6 +20,7 @@ Level: 50
 Tera Type: Water
 EVs: 252 HP / 4 SpA / 252 Spe
 Timid Nature
+IVs: 0 Atk
 - Tailwind
 - Hurricane
 - Taunt
@@ -41,6 +43,7 @@ Level: 50
 Tera Type: Dark
 EVs: 4 HP / 252 SpA / 252 Spe
 Timid Nature
+IVs: 0 Atk
 - Heat Wave
 - Dark Pulse
 - Protect

@@ -57,7 +57,7 @@ Level: 50
 Tera Type: Grass  
 EVs: 252 HP / 156 Atk / 92 SpD / 8 Spe  
 Brave Nature  
-IVs: 0 Spe  
+IVs: 0 SpA / 0 Spe  
 - Fake Out  
 - Drain Punch  
 - Wild Charge  
@@ -69,6 +69,7 @@ Level: 50
 Tera Type: Flying  
 EVs: 4 HP / 252 Atk / 252 Spe  
 Jolly Nature  
+IVs: 0 SpA  
 - Tailwind  
 - Knock Off  
 - Acrobatics  
