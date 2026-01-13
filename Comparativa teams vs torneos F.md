@@ -65,7 +65,8 @@ Este documento compara nuestro **RegF Team 05** contra 10 arquetipos/equipos **r
   - **Rillaboom** fuerza Teras defensivas y castiga a Water cores; **Urshifu-R** amenaza KOs incluso con Protect mindgames.
 - **Claves:**
   - No dependas de spread (Heat Wave/Rock Slide) si ves Wide Guard.
-  - Busca turnos de **Parting Shot** para re-entrar con Chi‑Yu/Flutter a rango de KO.
+  - Busca turnos de **Parting Shot** para re-entrar con **Flutter Mane / Urshifu-R / Landorus-T** a rango de KO.
+  - Con Rillaboom, prioriza quitar items con **Knock Off** y mantener Grassy Terrain para sostener intercambios.
   - Con Rillaboom, prioriza quitar items con **Knock Off** y mantener Grassy Terrain para sostener intercambios.
 
 
@@ -80,7 +81,7 @@ Este documento compara nuestro **RegF Team 05** contra 10 arquetipos/equipos **r
   - **Taunt** al Ninetales-A si el lead lo permite.
   - Si Veil entra, cambia el objetivo: en vez de “2HKOs”, juega a **posición y KOs garantizados** con doble focus.
 - **Claves:**
-  - Sin Chi‑Yu, el plan es más de **posición y foco**: fuerza trades con Urshifu-R y usa Tailwind para negar turnos cómodos de setup.
+  - El plan es más de **posición y foco**: fuerza trades con Urshifu-R y usa Tailwind para negar turnos cómodos de setup.
   - Incineroar es clave para frenar Bax/Iron Hands y reposicionar.
 
 
@@ -170,7 +171,7 @@ Este documento compara nuestro **RegF Team 05** contra 10 arquetipos/equipos **r
 **Vs nuestro Team 05**
 - **Amenazas:** Fake Out wars, sustain con Drain Punch, presión constante.
 - **Tu plan:**
-  - Flutter Mane + Chi‑Yu castigan mucho a Hands si no tera defensivo.
+  - Flutter Mane + Urshifu-R castigan mucho a Hands si no tera defensivo.
   - Intimidate + Parting Shot le bajan muchísimo el valor.
 
 ---

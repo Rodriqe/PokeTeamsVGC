@@ -1,0 +1,16 @@
+{
+  "name": "poketeamsvgc-battlelab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@pkmn/sim": "^0.10.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.3"
+  }
+}
