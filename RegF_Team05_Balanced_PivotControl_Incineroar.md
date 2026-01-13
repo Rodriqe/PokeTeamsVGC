@@ -48,17 +48,16 @@ IVs: 0 Atk
 - Dazzling Gleam
 - Protect
 
-Chi-Yu @ Choice Specs
-Ability: Beads of Ruin
+Rillaboom @ Assault Vest
+Ability: Grassy Surge
 Level: 50
-Tera Type: Ghost
-EVs: 212 HP / 4 Def / 52 SpA / 4 SpD / 236 Spe
-Modest Nature
-IVs: 0 Atk
-- Heat Wave
-- Dark Pulse
-- Snarl
-- Overheat
+Tera Type: Water
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Grassy Glide
+- Fake Out
+- Knock Off
+- Wood Hammer
 
 Landorus-Therian @ Choice Scarf
 Ability: Intimidate
@@ -73,20 +72,20 @@ Adamant Nature
 ```
 
 ## Strategy (high level)
-- **Primary win condition:** Create immediate advantage with **Tailwind + double pressure** (Booster Flutter Mane + Specs Chi-Yu) while Incineroar keeps tempo via **Fake Out + Parting Shot**.
+- **Primary win condition:** Create immediate advantage with **Tailwind + double pressure** (Booster Flutter Mane + Urshifu-R) while Incineroar and Rillaboom keep tempo via **double Fake Out + pivoting**.
 - **Speed control:** Tailwind (Tornadus) + Choice Scarf cleanup (Landorus-T) + priority Aqua Jet (Urshifu-R).
 - **Board control:** Taunt (Tornadus) to stop Trick Room/setup; Knock Off + pivoting (Incineroar/Landorus) to keep attackers safe and repeatedly re-enter favorable boards.
 
 ## Modes & common lines
 ### Mode A: Standard aggressive Tailwind
-- **Bring:** Tornadus + Flutter Mane + Incineroar + (Urshifu-R / Chi-Yu)
+- **Bring:** Tornadus + Flutter Mane + Incineroar + (Urshifu-R / Landorus-T)
 - **Common leads:** Tornadus+Flutter, Tornadus+Urshifu-R
 - **Typical turn 1:** Tailwind or Taunt with Tornadus; take a KO or force Teras immediately.
 
-### Mode B: Spread pressure / anti-balance
-- **Bring:** Tornadus + Chi-Yu + Landorus-T + Incineroar
-- **Common leads:** Tornadus+Chi-Yu, Tornadus+Landorus
-- **Typical turn 1:** Tailwind, then start Heat Wave / Rock Slide cycles while pivoting with U-turn/Parting Shot.
+### Mode B: Anti-Water / bulky cores
+- **Bring:** Rillaboom + Incineroar + Urshifu-R + (Flutter Mane / Tornadus)
+- **Common leads:** Rillaboom+Incineroar, Rillaboom+Urshifu-R
+- **Typical turn 1:** Double Fake Out / pivot to deny opposing setup; take KOs with Urshifu-R while Rillaboom pressures Waters.
 
 ### Mode C: Into Trick Room teams
 - **Bring:** Tornadus + Incineroar + 2 attackers (usually Flutter Mane + Urshifu-R)
@@ -94,13 +93,13 @@ Adamant Nature
 - **Typical turn 1:** Taunt the setter when possible; if they protect around it, play for trades and keep pivoting to waste Trick Room turns.
 
 ## Terastallization plan
-- **Primary Tera users:** Urshifu-R (Water), Flutter Mane (Fairy), Chi-Yu (Ghost)
+- **Primary Tera users:** Urshifu-R (Water), Flutter Mane (Fairy), Landorus-T (Flying)
 - **Notes:**
 	- **Urshifu-R — Tera Water:** maximizes Surging Strikes and makes Aqua Jet endgames cleaner.
 	- **Flutter Mane — Tera Fairy:** maximizes Moonblast/Dazzling Gleam damage while staying a consistent attacker.
-	- **Chi-Yu — Tera Ghost:** strong defensive Tera option that preserves offensive pressure and avoids common Fighting interactions.
 	- **Incineroar — Tera Ghost:** blocks opposing Fake Out and gives a Fighting immunity to keep pivoting.
 	- **Landorus-T — Tera Flying:** converts Tera Blast into a strong nuke and improves its defensive profile.
+	- **Rillaboom — Tera Water:** improves into Fire/Ice pressure while keeping Fake Out/Glide utility.
 
 ## IV notes
 - Special attackers carry **IVs: 0 Atk** to reduce Foul Play/confusion damage.
@@ -110,5 +109,5 @@ Adamant Nature
 - https://www.smogon.com/dex/sv/pokemon/tornadus/vgc24-regulation-f/
 - https://www.smogon.com/dex/sv/pokemon/urshifu-rapid-strike/vgc24-regulation-f/
 - https://www.smogon.com/dex/sv/pokemon/flutter-mane/vgc24-regulation-f/
-- https://www.smogon.com/dex/sv/pokemon/chi-yu/vgc24-regulation-f/
 - https://www.smogon.com/dex/sv/pokemon/landorus-therian/vgc24-regulation-f/
+- https://www.smogon.com/dex/sv/pokemon/rillaboom/vgc24-regulation-f/
