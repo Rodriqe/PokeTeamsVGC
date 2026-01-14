@@ -60,6 +60,14 @@ function firstAvailableSwitch(req: ShowdownRequest): string {
 function buildChoice(req: ShowdownRequest): string {
   if (req?.wait) return 'pass';
 
+  // VGC requires selecting 4 Pokémon at team preview.
+  if (req?.teamPreview) {
+    const teamSize = (req?.side?.pokemon as any[] | undefined)?.length ?? 6;
+    const pickN = Math.min(4, teamSize);
+    const picked = Array.from({length: pickN}, (_, i) => i + 1);
+    return `team ${picked.join('')}`;
+  }
+
   const forceSwitch: boolean[] | undefined = req?.forceSwitch;
   if (forceSwitch?.some(Boolean)) {
     const parts = forceSwitch.map((fs) => (fs ? firstAvailableSwitch(req) : 'pass'));

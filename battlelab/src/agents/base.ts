@@ -25,8 +25,23 @@ export abstract class BaseAgent {
         if (!line.startsWith('|request|')) continue;
         const payload = line.slice('|request|'.length);
         if (!payload) continue;
-        const req = JSON.parse(payload);
-        const choice = handlers.onRequest(req);
+        let req: ShowdownRequest;
+        try {
+          req = JSON.parse(payload);
+        } catch {
+          // Ignore malformed request payloads.
+          continue;
+        }
+
+        let choice = 'pass';
+        try {
+          const next = handlers.onRequest(req);
+          if (typeof next === 'string' && next.trim().length) choice = next;
+        } catch {
+          // Fallback to a safe no-op choice to avoid deadlocking the battle.
+          choice = 'pass';
+        }
+
         this.stream.write(`>choose ${choice}\n`);
       }
     }

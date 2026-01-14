@@ -62,6 +62,11 @@ export async function runEvaluation(opts: EvaluationOptions): Promise<void> {
       if (outcome.winner === 'p1') wins++;
       else if (outcome.winner === 'p2') losses++;
       else draws++;
+
+      if ((i + 1) % 10 === 0 || i + 1 === opts.gamesPerOpponent) {
+        process.stdout.write(`\r${opp.name}: ${i + 1}/${opts.gamesPerOpponent} games...`);
+        if (i + 1 === opts.gamesPerOpponent) process.stdout.write('\n');
+      }
     }
 
     const avgTurns = turnsTotal / Math.max(1, opts.gamesPerOpponent);

@@ -33,3 +33,11 @@ npm run eval -- --games 50
 - The heuristic agent is intentionally simple; start here, then iterate.
 - If the default `@pkmn/sim` build doesn’t include the VGC Reg F format id on your machine, set `BATTLELAB_FORMATID`:
   - `BATTLELAB_FORMATID=gen9vgc2024regulationf npm run eval -- --games 50`
+
+## Debugging “infinite loops” / stuck battles
+If a battle gets stuck (e.g. an agent stops responding or the simulator stops producing output), BattleLab will force a tie via failsafes.
+
+- Log whenever a battle is forcibly tied:
+  - `BATTLELAB_LOG_ABORTS=1 npm run eval -- --games 50`
+- Tighter failsafes to reproduce faster:
+  - `BATTLELAB_BATTLE_TIMEOUT_MS=15000 BATTLELAB_MAX_TURNS=80 npm run eval -- --games 10`
