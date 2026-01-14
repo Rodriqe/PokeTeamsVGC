@@ -18,9 +18,25 @@ const agent = (getArg('agent', 'strategic') ?? 'strategic') as 'strategic' | 'he
 const opponentAgent = (getArg('opponentAgent', 'random') ?? 'random') as 'strategic' | 'heuristic' | 'random';
 const repoRoot = getArg('repoRoot');
 
-await runEvaluation({
-  gamesPerOpponent: games,
-  agent,
-  opponentAgent,
-  repoRoot,
-});
+async function main() {
+  await runEvaluation({
+    gamesPerOpponent: games,
+    agent,
+    opponentAgent,
+    repoRoot,
+  });
+}
+
+// Keep the event loop alive while async work runs.
+// Node may otherwise exit early if the workload is promise/microtask-heavy.
+const keepAlive = setInterval(() => {}, 1 << 30);
+
+main()
+  .catch((err) => {
+    // eslint-disable-next-line no-console
+    console.error(err);
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    clearInterval(keepAlive);
+  });
